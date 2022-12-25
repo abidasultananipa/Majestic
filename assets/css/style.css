@@ -1,0 +1,115 @@
+/* common code start */
+:root{
+    --brand-color: #212121;
+    --primary-color: #F5F5F5;
+    --secondary-color: #676767; 
+}
+body{
+    background: var(--primary-color);
+}
+a{
+    text-decoration: none;
+}
+/* common code end */
+
+/*header code start */
+
+/* nav start */
+header{
+    background: linear-gradient(rgba(230, 230, 231,.6),rgba(230, 230, 231,.6)), url(../img/header-bg.png);
+    background-size: cover;
+    height: 780px;
+}
+.brand-name{
+    font-size: 15px;
+}
+.fa-solid{
+    color: var(--secondary-color) ;
+}
+/* nav end */
+
+/* banner part start */
+
+.text{
+    padding-top: 250px;
+    padding-bottom: 40px;
+}
+.text h1{
+    font-size: 70px;
+}
+.card{
+    border-radius: 0;
+}
+.btn {
+    color: var(--secondary-color);
+    border-radius: 0;
+    margin-top: 240px;
+}
+/* banner part end */
+/*header code end */
+
+/* deal part start */
+.view{
+    color: var(--primary-color);
+    background: #000000;
+    padding: 4px 60px;
+
+}
+/* deal part end */
+
+/* collection part start  */
+.collection{
+    margin-top: 120px;
+}
+.collection-inner{
+    background: #EEEEEE;
+}
+.collection-text{
+    padding-top: 130px;
+}
+.outfit{
+    color: var(--primary-color);
+    margin-top: 500px;
+}
+.shade{
+   background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1));
+}
+/* collection part end */
+
+/* new-arrival part start  */
+.new-arrival h5{
+    padding-top: 120px;
+}
+.amount{
+    color: rgb(233, 155, 10) ;
+}
+/* new-arrival part end */
+
+/* category part start  */
+.category{
+    margin-top: 40px;
+    padding: 100px;
+}
+/* category part end */
+
+/* author part start */
+.mt-neg {
+    margin-top:-45px;
+}
+/* author part end */
+
+/* formal part start  */
+.gentle-text{
+    background: #EEEEEE;
+}
+/* formal part end  */
+
+/* footer part start  */
+.footer {
+    color:var(--secondary-color) ;
+}
+.theme{
+    color: var(--secondary-color) ; 
+}
+/* footer part end  */
+
